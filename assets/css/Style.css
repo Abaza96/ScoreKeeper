@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+    border: 8px solid white;
+    border-radius: 24px;
+    margin: 30px 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.detector {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.detector span {
+    color: aqua;
+}
+
+.playerName {
+    font-size: 5em;
+    text-align: center;
+    color: blueviolet;
+}
+
+.score {
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px green;
+    margin: 5% 30%;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.again {
+    margin: .5% auto 20% auto;
+}
+
+.custom {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+label {
+    color: #fff;
+    padding: 20px;
+}
+
+#limit {
+    border-radius: 24px;
+}
+
+.theInput {
+    margin: .5% 20% .5% 37%;
+}
